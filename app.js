@@ -15,7 +15,6 @@ function displayTextOnScreen(tag, text){
     } else {
         console.log("Web Speech API no supported in this browser.");
     }
-
 }
 
 function generateRandomNumber() {
