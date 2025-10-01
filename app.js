@@ -1,5 +1,5 @@
 let listTheSecretNumber = [];
-let limitNumber = 40;
+let limitNumber = 60;
 let secretNumber = generateRandomNumber();
 let attempts = 1;
 
@@ -42,7 +42,7 @@ function clearField() {
 displayInitialMessage();
 function displayInitialMessage() {
     displayTextOnScreen('h1', 'Game of the secret number');
-    displayTextOnScreen('p' , 'Choose a number between 1 and 10');
+    displayTextOnScreen('p' , 'Choose a number between 1 and 60');
     document.getElementById('restart').setAttribute('disabled' , true);
 }
 
